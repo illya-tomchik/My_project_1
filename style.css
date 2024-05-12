@@ -1,0 +1,395 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --blue-color: #012D63;
+    --gray-color: #C7C7C7;
+    --white-color: #FFFFFF;
+    --purple-color: #8e32c6;
+    --aqua-color: #00E5E6;
+    --light-blue-color: #00A8F7;
+    --light-purple-color: #9A76F9;
+    --pink-color: #9A76F9;
+    --most-light-pink-color: #FF68B4;
+    --light-pink-color: #FF45E1;
+    --dark-pink-color: #ce3aff;
+    --most-dark-pink-color: #8961FF;
+    --yellow-color: #FFE128;
+    --orange-color: #ff9b5c;
+    --light-orange-color: #FF8381;
+    --most-light-orange-color: #FF5489;
+    --dark-blue-color: #021635;
+}
+
+.pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: #012D63;
+}
+
+.header-link {
+    font-size: 24px;
+    color: var(--gray-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.header-link:hover {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-item:not(:nth-child(7)) {
+    margin-left: 29px;
+}
+
+
+
+.header-item:nth-child(7) {
+    margin-left: 73px;
+}
+
+#logo1 {
+    margin-top: 20px;
+    width: 100px;
+    height: 60px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-list {
+    display: flex;
+    justify-content: center;
+}
+
+.your-dream-nike {
+    background-image: url(img/cross_nike.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.your-dream-nike h1 {
+    font-size: 144px;
+    color: var(--white-color);
+    margin: 0 auto;
+}
+
+.your-dream-nike h2 {
+    font-size: 48px;
+    color: var(--white-color);
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.your-dream-nike-h2 {
+    font-size: 72px;
+    color: var(--white-color);
+}
+
+.your-dream-nike p {
+    margin-top: 12px;
+    font-size: 18px;
+    color: var(--white-color);
+    text-wrap: wrap;
+    width: 508px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.your-dream-nike-button {
+    background-color: var(--purple-color);
+    color: white;
+    font-size: 24px;
+    padding: 20px 60px;
+    margin-top: 61px;
+    border-radius: 10px;
+    margin-bottom: 183px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.your-dream-nike-article {
+    padding-top: 94px;
+}
+
+.card-list {
+    display: flex;
+}
+
+.card-list-item {
+    font-size: 36px;
+}
+
+.card-list-item h4 {
+    color: white;
+}
+
+.main-card {
+    background-image: url(img/group8.png);
+    background-repeat: no-repeat;
+    padding: 105px 165px;
+    background-size: 100%;
+}
+
+.card-list {
+    border: 5px solid #8E32C6;
+    justify-content: space-between;
+    padding: 25px 50px;
+}
+
+.reviews {
+    background: url(img/flower.png), url(img/group6.png);
+    background-size: 250px, 100%;
+    background-repeat: no-repeat;
+    background-position: left bottom, center;
+}
+
+.reviews-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 114px;
+}
+
+.reviews-item:nth-child(1) {
+    background-image: linear-gradient(to right bottom, #00E5E6, #00A8F7, #9A76F9, #9A76F9);
+}
+
+.reviews-item:nth-child(2) {
+    background-image: linear-gradient(to right bottom, #FF68B4, #FF45E1, #CE3AFF, #8961FF);
+}
+
+.reviews-item:nth-child(3) {
+    background-image: linear-gradient(to right bottom, #FFE128, #FF9B5C, #FF8381, #FF5489);
+}
+
+.reviews-item {
+    width: 255px;
+    height: 292px;
+    color: white;
+    border-radius: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.reviews-item:not(:last-child) {
+    box-shadow: 0px 14px 1px -7px rgb(142, 50, 198, 90%), 0px 30px 0px -16px rgb(142, 50, 198, 60%);
+}
+
+.reviews-item:last-child {
+    box-shadow: 0px 14px 1px -7px rgb(255, 155, 92, 90%), 0px 30px 0px -16px rgb(255, 155, 92, 60%);
+}
+
+.reviews-item p {
+    font-size: 24px;
+    padding-top: 49px;
+
+
+}
+
+#reviews-p2 {
+    font-size: 14px;
+}
+
+span {
+    color: var(--gray-color);
+}
+
+#reviews-span2 {
+    font-size: 12px;
+    color: var(--gray-color);
+}
+
+.Order {
+    background-image: url(img/fon_2_tree.png);
+    background-size: 100%;
+}
+
+.h2-order {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+
+.item-order {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer {
+    background-color: #021635;
+    color: white;
+    padding-top: 45px;
+}
+
+.footer-link {
+    color: white;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    font-size: 24px;
+}
+
+.card-list-item:not(:last-child) {
+    border-right: 2px solid white;
+
+}
+
+.card-list-item {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card-list-item h4 {
+    line-height: auto;
+}
+
+.form-order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews-div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 29px;
+    margin-left: 13px;
+
+}
+
+.reviews-text {
+    display: column;
+}
+
+.reviews-div-text {
+    margin-left: 13px;
+
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.reviews-img {
+    width: 31px;
+    height: 31px;
+}
+
+.footer-text {
+    flex-direction: column;
+}
+
+.reviews-item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.button-order {
+    width: 248px;
+    height: 68px;
+    background-color: #8E32C6;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 37px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.input-order {
+    padding: 22px;
+    padding-left: 24px;
+    padding-right: 417px;
+    margin: 19px;
+    border-radius: 30px;
+    font-size: 24px;
+
+}
+
+.input-order:hover {
+    padding: 25px;
+    padding-left: 25px;
+    padding-right: 460px;
+    border-radius: 30px;
+    font-size: 28px;
+}
+
+.input-order:focus {
+    padding: 25px;
+    padding-left: 25px;
+    padding-right: 460px;
+    border-radius: 30px;
+    font-size: 28px;
+}

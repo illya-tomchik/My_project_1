@@ -32,7 +32,6 @@
 
 h1, h2 , h3 , h4 {
     font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
@@ -240,23 +239,26 @@ ul {
 
 
 }
-
-#reviews-p2 {
+.reviews-text p{
     font-size: 14px;
 }
+.reviews-text span{
+    font-size: 12px;
+    color: var(--gray-color);
+}
+
 
 span {
     color: var(--gray-color);
 }
 
-#reviews-span2 {
-    font-size: 12px;
-    color: var(--gray-color);
-}
+
 
 .Order {
     background-image: url(img/fon_2_tree.png);
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
 }
 
 .h2-order {
@@ -298,10 +300,7 @@ span {
 .card-list-item {
     padding-left: 50px;
     padding-right: 50px;
-}
-
-.card-list-item h4 {
-    line-height: auto;
+    text-align: center;
 }
 
 .form-order {
@@ -320,7 +319,7 @@ span {
 }
 
 .reviews-text {
-    display: column;
+    flex-direction: column;
 }
 
 .reviews-div-text {
@@ -370,26 +369,29 @@ span {
 
 .input-order {
     padding: 22px;
-    padding-left: 24px;
-    padding-right: 417px;
     margin: 19px;
     border-radius: 30px;
     font-size: 24px;
+    width: 700px;
 
 }
 
 .input-order:hover {
-    padding: 25px;
-    padding-left: 25px;
-    padding-right: 460px;
-    border-radius: 30px;
-    font-size: 28px;
+    width: 800px;
 }
 
 .input-order:focus {
-    padding: 25px;
-    padding-left: 25px;
-    padding-right: 460px;
-    border-radius: 30px;
-    font-size: 28px;
+  
+}
+.footer-text{
+    margin-top: 30px;
+}
+#logo2{
+    margin-top: 30px;
+}
+.footer-item h4{
+    margin-top: 10px;
+}
+.footer-link{
+    margin-top: 10px;
 }

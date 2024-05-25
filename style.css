@@ -389,9 +389,6 @@ span {
 #logo2{
     margin-top: 30px;
 }
-.footer-item h4{
-    margin-top: 10px;
-}
-.footer-link{
-    margin-top: 10px;
+.footer-item{
+    line-height: 28.13px;
 }
